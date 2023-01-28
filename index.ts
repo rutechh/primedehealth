@@ -46,10 +46,12 @@ class Utility {
 }
 
 // Test Cases
+console.log('================= Rotate Array ======================');
 console.log(new Utility().rotateArray([1, 2, 3], 2));
 console.log(new Utility().rotateArray([], 3));
 
 
+console.log('================= Check Monotonic ======================');
 console.log(new Utility().isMonotonic([1, 2, 3, 4])); // true
 console.log(new Utility().isMonotonic([10, 3, 4, 6])); // false
 console.log(new Utility().isMonotonic([9])); // true
